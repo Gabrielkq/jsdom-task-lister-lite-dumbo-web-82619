@@ -17,6 +17,7 @@ taskForm.addEventListener("submit", function(evt){
     if (level == 3) {newTaskLI.className = "low"}
     
   tasksUL.append(newTaskLI)
+  taskForm.reset()
  })
 
 tasksUL.addEventListener("click", function(evt){
